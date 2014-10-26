@@ -1,3 +1,6 @@
+2014-10-26 Robert Heel <typo3@bobosch.de>
+	* Bugfix: Compatibility to TYPO3 6.2.
+
 2012-07-09 Robert Heel <rheel@1drop.de>
 	* Bugfix: Allow multiple forms on one page with jQuery (Thanks to Martin Alker).
 	* Bugfix: Add index_phash and index_rel as required tables.

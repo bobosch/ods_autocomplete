@@ -4,9 +4,6 @@ $obj->main();
 
 class ods_autocomplete {
 	function ods_autocomplete() {
-		// include class def
-		require_once(PATH_t3lib.'class.t3lib_page.php');
-		
 		// Initialize FE user object:
 		$this->feUserObj = tslib_eidtools::initFeUser();
 		

@@ -27,9 +27,6 @@
  * Hint: use extdeveval to insert/update function index above.
  */
 
-require_once(PATH_tslib.'class.tslib_pibase.php');
-
-
 /**
  * Plugin 'Autocomplete for indexed_search' for the 'ods_autocomplete' extension.
  *
