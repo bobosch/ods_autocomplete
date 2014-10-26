@@ -1,0 +1,17 @@
+[globalVar = LIT:scriptaculous={$plugin.tx_odsautocomplete_pi1.JSlibrary}] && [globalVar = LIT:1={$plugin.tx_odsautocomplete_pi1.JSinclude}]
+	page.includeCSS.ods_autocomplete = EXT:ods_autocomplete/res/scriptaculous.css
+	page.includeJSlibs.prototype = typo3/contrib/prototype/prototype.js
+	page.includeJSlibs.scriptaculous = typo3/contrib/scriptaculous/scriptaculous.js
+[end]
+
+[globalVar = LIT:jqueryui={$plugin.tx_odsautocomplete_pi1.JSlibrary}] && [globalVar = LIT:1={$plugin.tx_odsautocomplete_pi1.JSinclude}]
+	page.includeCSS.jqueryui = EXT:ods_autocomplete/res/jquery/jquery-ui-1.8.16.custom.css
+	page.includeJSlibs.jquery = EXT:ods_autocomplete/res/jquery/jquery-1.6.4.min.js
+	page.includeJSlibs.jqueryui = EXT:ods_autocomplete/res/jquery/jquery-ui-1.8.16.custom.min.js
+[end]
+
+plugin.tx_odsautocomplete_pi1 {
+	JSlibrary = {$plugin.tx_odsautocomplete_pi1.JSlibrary}
+	searchpage = {$plugin.tx_odsautocomplete_pi1.searchpage}
+	template = EXT:ods_autocomplete/pi1/ods_autocomplete.html
+}

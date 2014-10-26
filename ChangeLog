@@ -1,0 +1,34 @@
+2012-07-09 Robert Heel <rheel@1drop.de>
+	* Bugfix: Allow multiple forms on one page with jQuery (Thanks to Martin Alker).
+	* Bugfix: Add index_phash and index_rel as required tables.
+
+2012-05-25 Robert Heel <rheel@1drop.de>
+	* Add: Workaround for indexed_search_mysql.
+	* Change: Own div element for autocompletion result, please update template.
+
+2011-10-28 Robert Heel <rheel@1drop.de>
+	* Add: Javascript library option "none" to deactivate autocompletion.
+	* Update: jQuery 1.6.4.
+	* Update: jQuery UI 1.8.16.
+	* Add: t3jquery.txt.
+
+2010-09-14 Robert Heel <rheel@1drop.de>
+	* Change: Reference files with EXT: prefix.
+
+2010-08-31 Robert Heel <rheel@1drop.de>
+	* Bugfix: Update scriptaculous javascript to work in more browsers.
+	* Add: Configurable minimum number of chars and maximum number of results.
+
+2010-08-27 Robert Heel <rheel@1drop.de>
+	* Incompatible Change: Possibility to add multiple forms on one page.
+	* Add: jQuery UI support.
+	* Add: Manual.
+
+2010-02-09 Robert Heel <rheel@1drop.de>
+	* Add: Frontend Plugin.
+
+2009-04-14 Robert Heel <rheel@1drop.de>
+	* Only show words of unprotected pages
+	* Add french and spanish FE translation
+	* Make javascript tag xhtml conform
+	* TS Constant for JSlibrary inclusion

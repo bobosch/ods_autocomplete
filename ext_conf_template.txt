@@ -1,0 +1,5 @@
+# cat=basic; type=integer; label=Minimum number of chars: Start searching after entering xx chars.
+min_chars = 3
+
+# cat=basic; type=integer; label=Maximum number of results: Only show the first xx results.
+max_results = 10

@@ -1,0 +1,10 @@
+plugin.tx_odsautocomplete_pi1 {
+# cat=plugin.tx_odsautocomplete_pi1//1; type=int; label=ID of search page
+searchpage =
+
+# cat=plugin.tx_odsautocomplete_pi1//2; type=options[jqueryui,scriptaculous,none=]; label=Use javascript library
+JSlibrary = scriptaculous
+
+# cat=plugin.tx_odsautocomplete_pi1//3; type=boolean; label=Include javascript library
+JSinclude = 1
+}
