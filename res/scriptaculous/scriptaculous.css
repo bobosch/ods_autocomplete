@@ -1,0 +1,23 @@
+.searchform div {
+	position: relative !important;
+	top: 0 !important;
+}
+
+.searchform ul {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	list-style-type: none;
+}
+
+.searchform li {
+	color: #333;
+	cursor: pointer;
+	font-size: 10px;
+	padding: 0 3px;
+}
+
+.searchform .selected {
+	color: #666;
+}
