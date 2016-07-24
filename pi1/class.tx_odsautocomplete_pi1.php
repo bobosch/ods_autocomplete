@@ -30,11 +30,11 @@
 /**
  * Plugin 'Autocomplete for indexed_search' for the 'ods_autocomplete' extension.
  *
- * @author	Robert Heel <rheel@1drop.de>
+ * @author	Robert Heel <typo3@bobosch.de>
  * @package	TYPO3
  * @subpackage	tx_odsautocomplete
  */
-class tx_odsautocomplete_pi1 extends tslib_pibase {
+class tx_odsautocomplete_pi1 extends \TYPO3\CMS\Frontend\Plugin\AbstractPlugin {
 	var $prefixId      = 'tx_odsautocomplete_pi1';		// Same as class name
 	var $scriptRelPath = 'pi1/class.tx_odsautocomplete_pi1.php';	// Path to this script relative to the extension dir.
 	var $extKey        = 'ods_autocomplete';	// The extension key.

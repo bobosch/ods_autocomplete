@@ -1,18 +1,8 @@
 <?php
-$obj = t3lib_div::makeInstance('ods_autocomplete');
+$obj = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('ods_autocomplete');
 $obj->main();
 
 class ods_autocomplete {
-	function ods_autocomplete() {
-		// Initialize FE user object:
-		$this->feUserObj = tslib_eidtools::initFeUser();
-		
-		// Connect to database:
-		tslib_eidtools::connectDB();
-
-		return true;
-	}
-	
 	function main() {
 		if(isset($_POST['tx_indexedsearch']['sword'])){
 			$res=$this->getList($_POST['tx_indexedsearch']['sword'],$_POST['language']);
@@ -38,7 +28,7 @@ class ods_autocomplete {
 	function getList($search,$language){
 		$config=unserialize($GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['ods_autocomplete']);
 
-		$words=t3lib_div::trimExplode(' ',$search, 1);
+		$words=\TYPO3\CMS\Core\Utility\GeneralUtility::trimExplode(' ',$search, 1);
 
 		$where_array=array();
 		foreach($words as $word){
